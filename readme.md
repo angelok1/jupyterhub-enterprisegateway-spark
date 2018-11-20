@@ -273,5 +273,5 @@ Open a browser and navigate to ``http://<server>:8000`` and login with ``hubadmi
 * HTTPS between JEG and Hub.
 * Use Kubernetes for containers Hub and JEG. It provides a more robust environment, but requires some experience therein. (the virtues are extolled here: https://blog.jupyter.org/introducing-jupyter-enterprise-gateway-db4859f86762)
 * Additional Kernels. Depending on preferences (R, Scala, Scikit) you may want to include those in your installation.
-* Other tools: MLeap and Pixie Dust
+* Other tools: MLeap and Pixie Dust, sklearn and any other preferred tools.
 * Spark Cluster: In this POC, the stack is installed on a single, standalone Spark node. The production environment will differ, so pay attention to the steps outlined in the configuration.

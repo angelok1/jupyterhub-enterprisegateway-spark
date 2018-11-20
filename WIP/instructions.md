@@ -27,7 +27,7 @@ SPARK_HOME=~/.local/lib/python3.6/site-packages/pyspark
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 PYSPARK_PYTHON=python3
 KG_LIST_KERNELS=True
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$SPARK_HOME/bin:$JAVA_HOME"
+PATH="/home/ubuntu/.local/bin:/home/ubuntu/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$SPARK_HOME/bin:$JAVA_HOME"
 
 source /etc/environment
 

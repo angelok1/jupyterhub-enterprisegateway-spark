@@ -52,6 +52,9 @@ sudo KG_URL=http://172.31.75.79:8888 jupyterhub -f /etc/jupyter/jupyterhub_confi
 sudo vim /usr/local/lib/python3.6/dist-packages/nb2kg/managers.py
 
 
+sudo -H pip3 install jupyterlab
+sudo jupyter serverextension enable --py jupyterlab 
+
 so the KG
 sudo adduser hubadmin
 

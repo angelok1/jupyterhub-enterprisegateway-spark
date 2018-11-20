@@ -201,6 +201,7 @@ Install the notebook server, and if you want JupyterLab, install that, too.
 ```bash
 sudo -H pip3 install notebook
 sudo -H pip3 install jupyterlab
+sudo jupyter serverextension enable --py jupyterlab 
 ```
 
 Verify that things have been installed correctly so far. Each of these should give you some help screens.

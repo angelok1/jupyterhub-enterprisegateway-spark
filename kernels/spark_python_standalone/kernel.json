@@ -1,0 +1,20 @@
+{
+  "language": "python",
+  "display_name": "Spark - Python (Standalone Mode)",
+  "process_proxy": {
+    "class_name": "enterprise_gateway.services.processproxies.distributed.DistributedProcessProxy"
+  },
+  "env": {
+    "SPARK_HOME": "/opt/spark",
+    "JAVA_HOME": "/usr/lib/jvm/java-8-openjdk-amd64",
+    "PYSPARK_PYTHON": "/usr/bin/python3",
+    "SPARK_OPTS": "--master local --deploy-mode client --name ${KERNEL_ID:-ERROR__NO__KERNEL_ID}",
+    "LAUNCH_OPTS": ""
+  },
+  "argv": [
+    "/usr/local/share/jupyter/kernels/spark_python_standalone/bin/run.sh",
+    "{connection_file}",
+    "--RemoteProcessProxy.response-address",
+    "{response_address}"
+  ]
+}
